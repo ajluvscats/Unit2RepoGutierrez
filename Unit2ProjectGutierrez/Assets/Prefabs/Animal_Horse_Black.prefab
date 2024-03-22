@@ -1693,8 +1693,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8498202325605621654}
   - component: {fileID: 355536322106166927}
-  - component: {fileID: 2129773688412933148}
   - component: {fileID: 8895669653905559623}
+  - component: {fileID: 695993889334679651}
+  - component: {fileID: 1148580116348078964}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1744,19 +1745,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2129773688412933148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7648855660796409819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 988ab69c482b8524da74c5de807993f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 40
 --- !u!114 &8895669653905559623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1769,6 +1757,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c27cec137922c049aedacc1b468187a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &695993889334679651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648855660796409819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988ab69c482b8524da74c5de807993f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!65 &1148580116348078964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648855660796409819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 36.24262, y: 68.79147, z: 41.145317}
+  m_Center: {x: 14.608674, y: 6.9202046, z: -2.2188685}
 --- !u!1 &8002165978056386546
 GameObject:
   m_ObjectHideFlags: 0
